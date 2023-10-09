@@ -41,11 +41,19 @@ a.active,a:hover{
     transition: .5s;
 }
 footer{
-    background-color: #000;
+    background-color: #000000;
+    padding: 5px 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
 
 }
 .footerc{
+    color: white;
     width: 100%;
     padding: 70px 30px 20px;
-    justify-content: center;
+    text-align: center;
 }
+
