@@ -40,20 +40,53 @@ a.active,a:hover{
     background: rgb(60, 15, 59);
     transition: .5s;
 }
+.txtl{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.j{
+    color: white;
+    font-size: 100px;
+    right: 50px;
+}
+.artist{
+    justify-content: center;
+}
+.pic1{
+   /*position: relative;
+    top: 90px;
+    right: -700px;*/
+    margin-left: 650px;
+    margin-top: 20px;
+    
+}
+.pic2{
+    position: relative;
+    top: -100px;
+    left: 20px;
+}
 footer{
     background-color: #000000;
-    padding: 5px 0;
-    bottom: 0;
-    width: 50px;
-    height: 50px;
-    flex-shrink: 0;
-    position: absolute;
-
+    width: 100%;
+    height: 45px;
+   
+}
+.footer h1 {
+    margin: 0; 
+    color: white;
 }
 .footerc{
     color: white;
     width: 100%;
-    padding: 70px 30px 20px;
+    padding: 10px 0px 20px;
     text-align: center;
+    
+    
 }
-
+footer li {
+    display: inline;
+    margin: 0px 15px;
+    float: center;
+}
