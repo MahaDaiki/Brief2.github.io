@@ -43,7 +43,7 @@ a.active,a:hover{
 .txtl{
     color: white;
     position: relative;
-    top: 80px;
+    top: 50px;
     left: 50px;
 }
 .j{
@@ -52,20 +52,62 @@ a.active,a:hover{
     right: 50px;
 }
 .artist{
-    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-40%, -50%);
+
+}
+.time{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    
 }
 .pic1{
    /*position: relative;
     top: 90px;
     right: -700px;*/
     margin-left: 650px;
-    margin-top: 20px;
+    margin-top: 10px;
     
 }
 .pic2{
-    position: relative;
-    top: -100px;
-    left: 20px;
+    margin-left:120px;
+    margin-top: -150px;
+}
+.button{
+    margin-left: 800px;
+    margin-top:-120px;
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    font-size: larger;
+}
+.p{
+    color: white;
+    font-size: 200%;
+    padding-left: 550px;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5%;
+}
+
+.p4{
+    margin-top : -65%;
+}
+.p5{
+    margin-top : -34%;
+}
+.folio{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+.por{
+    padding: 1.5rem;
 }
 footer{
     background-color: #000000;
