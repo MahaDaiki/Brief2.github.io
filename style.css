@@ -109,6 +109,106 @@ a.active,a:hover{
 .por{
     padding: 1.5rem;
 }
+.co{
+    color: white;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.nn{
+    color: white;
+    font-size: 40px;
+}
+.contact{
+    margin: 10px 15rem;
+    border-radius: 40px;
+    padding: 10px;
+    background-color: rgb(119, 63, 114);
+}
+
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: none;
+  }
+  .bt{
+    background-color: white;
+    display: flex;
+    width: 50px;
+    margin-left: 20px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  .u{
+    display: flex;
+    justify-content: center;
+  }
+  .tt{
+    color: white;
+    font-size: 35px;
+    padding: 70px 0 0 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    float: left;
+  }
+  .im{
+    padding-right:50px
+  }
+  .test{
+    color: white;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 100px;
+  }
+  .ts{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .g{
+    color: white;
+    padding-left: 10px;
+  }
+  .g h1{
+    font-size: 30px;
+  }
+  .g p{
+    padding: 20px 0 40px 0;
+    font-size: medium;
+  }
+  .first{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin:100px 600px 0px 100px;
+  }
+  .second{
+    display:flex;
+    background-color: #000;
+    margin-right: 600px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+  }
+  .third{
+    display:grid;
+    background-color: #000;
+    margin-right: 899px;
+    margin-left: 200px;
+    margin-top: 10px;
+
+
+  }
+  
+
 footer{
     background-color: #000000;
     width: 100%;
