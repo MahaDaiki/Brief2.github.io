@@ -185,29 +185,55 @@ input[type=text],textarea {
     padding: 20px 0 40px 0;
     font-size: medium;
   }
-  .first{
-    display: flex;
-    background-color: rgb(0, 0, 0);
-    margin:100px 600px 0px 100px;
-  }
-  .second{
-    display:flex;
-    background-color: #000;
-    margin-right: 600px;
-    margin-left: 100px;
-    margin-top: 10px;
 
-  }
-  .third{
-    display:grid;
-    background-color: #000;
-    margin-right: 899px;
-    margin-left: 200px;
-    margin-top: 10px;
-
-
-  }
   
+.flex-cont1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+
+}
+
+.flex-cont2{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.flexit4{
+    background-color: rgb(0, 0, 0);
+}
+.flexit6{
+    background-color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+.flexit2{
+    background-color: rgb(0, 0, 0);
+    margin-right: 40px;
+}
+ .flexit4{
+    margin-top: 20px;
+    padding-left: 30px;
+    
+ }
+ .flexit5{
+    margin-top: 20px;
+ }
+
+.abutton{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    width: 10%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border:2px solid; 
+    margin: auto;
+    margin-bottom: 40px;
+ }
 
 footer{
     background-color: #000000;
